@@ -3,13 +3,13 @@
 #   del_items_from_list_ex.py - a python script showing examples of
 #                               deleting items from a list
 #
-#---------------------    module history   -----------------------------
+#---------------------    module history   ------------------------------------
 #
 #   12-OCT-18 : PTR XXXX, Created, Dodd M. Thomas
 #
-#   29-NOV-18 : PTR XXXX, Modified, Logan Thomas
+#   29-NOV-18 : PTR XXXX, Add .remove() and .pop() examples, Logan Thomas
 #
-#-----------------------------------------------------------------------
+#------------------------------------------------------------------------------
 
 spam=['cat','bat','rat','elephant']
 del spam[0]
