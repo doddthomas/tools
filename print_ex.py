@@ -52,7 +52,7 @@ print('Hello {}. You are {} years old and have eaten {} hams today.'.format(name
 # yields => 'Hello Tina. You are 35 years old and have eaten 2.5 hams today.'
 
 # Can switch indexes to print with str.format
-print('Hello {0}. You are {2} years old and have eaten {1} hams today.'.format(name, age, hams))
+print('Hello {0}. You are {2:.2f} years old and have eaten {1} hams today.'.format(name, age, hams))
 # yields => 'Hello Tina. You are 2.5 years old and have eaten 35 hams today.'
 
 
@@ -61,7 +61,7 @@ print('Hello {0}. You are {2} years old and have eaten {1} hams today.'.format(n
 print(f'Hello {name}')
 # yields => 'Hello Tina'
 
-print(f'Hello {name}. You are {age} years old and have eaten {hams} hams today.')
+print(f'Hello {name}. You are {age} years old and have eaten {hams:.2f} hams today.')
 # yields => 'Hello Tina. You are 35 years old and have eaten 2.5 hams today.'
 
 # f-strings support arbitrary expressions
