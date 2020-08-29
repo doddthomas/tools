@@ -13,3 +13,9 @@
 import random
 for i in range(5):
    print(random.randint(1,100))
+
+
+import numnpy as np
+np.random.randint(1,100,5)
+
+[random.randint(1,100) for i in range(5)]
