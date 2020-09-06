@@ -11,7 +11,7 @@ def add_ints(x: int, y: int) -> int:
     return x + y
 
 
-# Since Python will always remain a dynamically type language, all the
+# Since Python will always remain a dynamically typed language, all the
 # below lines of code will run without error.
 print(add_ints(5, 5))
 # yields => 10
